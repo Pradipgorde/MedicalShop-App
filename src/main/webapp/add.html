@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Product Store</title>
+</head>
+ <style>
+ form{
+
+margin:auto;
+height:500px;
+width:500px;
+padding:20px;
+background-color:aqua;
+ }
+ label{
+ padding:10px;
+
+ text-align:left;
+ }
+ div{
+padding:50px;
+ text-align:center;
+ }
+
+ h2{
+  text-align:center;
+  color:blue;
+  background-color:yellow;
+
+ }
+ input{
+padding:2px;
+ }
+
+ </style>
+ <body>
+
+<form action="add" method="post">
+
+<h2> Add Product  Details here  </h2>
+<label>Product Code:- <input type="text" name="code">   </label> <br> <br>
+<label> Product Name:- <input type="text" name="name">   </label> <br> <br>
+<label> Product Qty.:- <input type="number" name="qty" >  </label> <br>
+<label> Product Rate:- <input type="number" name="rate"> </label> <br> <br>
+
+<div> <button type="submit" value="addBoook">  Submit </button> </div>
+
+<br> <br>
+
+<a href="veiw"> View Product </a> &nbsp; &nbsp;
+ <a href="logout"> logOut </a> 
+ 
+
+</form>
+
+
+</body>
+</html>
